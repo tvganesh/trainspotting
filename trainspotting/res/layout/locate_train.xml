@@ -1,0 +1,81 @@
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+      
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:text="@string/whereTrain"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_span="1"
+                android:text="@string/newTrain"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="1"
+            android:text="@string/newDay"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <Spinner
+            	android:id="@+id/spinner2"
+            	android:layout_width="200dip"
+            	android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+       <Button
+             android:id="@+id/button1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_column="0"
+             android:layout_span="1"
+             android:onClick="locate"
+             android:text="@string/locateTrain" />
+
+        </TableRow>
+
+ 
+
+    </TableLayout>
+    
